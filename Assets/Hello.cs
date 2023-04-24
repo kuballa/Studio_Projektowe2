@@ -29,7 +29,7 @@ public class Hello : MonoBehaviour
     CubeNeighbourhood blueNeighbour = new CubeNeighbourhood(2, 1, 2, 1);
     CubeNeighbourhood grayNeighbour = new CubeNeighbourhood(1, 1, 1, 1);
 
-    static int[] gridSize = new int[3] {3,1,3}; // height is second!!
+    static int[] gridSize = new int[3] {3,3,3}; // height is second!!
     Renderer[,,] rendererGrid = new Renderer[gridSize[0], gridSize[1], gridSize[2]];
     Color[] colors = { Color.green, Color.blue, Color.gray };
     List<int> colorsIDs = new List<int> { 0, 1, 2 };
